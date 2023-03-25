@@ -203,13 +203,13 @@ import { EventEmitter } from 'events';
 /////////////////////////////////////////////////////////////////////
 
 // zip
-zip(
-  from([1, 2, 3]),
-  interval(1000),
-  (a, b) => a
-).subscribe(
-  console.log
-);
+// zip(
+//   from([1, 2, 3]),
+//   interval(1000),
+//   (a, b) => a
+// ).subscribe(
+//   console.log
+// );
 
 /*******************************************************************************/
 // Piping operators
